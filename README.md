@@ -17,17 +17,21 @@ This repository content provide the lab exercise guide for a hands-on workshop t
 
 ## Lab Exercises
 
-* Access to the lab environment
-* [Exercise-01-Deploy Monitoring and Istio onto RKE2 cluster](https://github.com/dsohk/rancher-istio-workshop/blob/main/docs/Exercise-01-DeployMonitoringandIstioonRKE2Cluster.md)
-* [Exercise-02-Deploy Sample Bookinfo Microservices Application](https://github.com/dsohk/rancher-istio-workshop/blob/main/docs/Exercise-02-DeploySampleBookinfoMicroservicesApplication.md)
-* [Exercise-03-Traffic Shaping with Service Mesh Canary Deployment](https://github.com/dsohk/rancher-istio-workshop/blob/main/docs/Exercise-03-Traffic-Shaping-with-ServiceMesh.md)
-* [Exercise-04-Visualize Service Mesh with Kiali](https://github.com/dsohk/rancher-istio-workshop/blob/main/docs/Exercise-04-Visualize-ServiceMesh-with-Kiali.md)
-* [Exercise-05-Explore Distributed Tracing with Jaeger](https://github.com/dsohk/rancher-istio-workshop/blob/main/docs/Exercise-05-ExploreDistributedTracingwithJaeger.md)
-* [Exercise-06-Explore NeuVector and how it secure microserivces](https://github.com/dsohk/rancher-istio-workshop/blob/main/docs/Exercise-06-ExploreNeuVectorandhowitsecureMicroservices.md)
+This lab is consiting of 3 exercises 
+
+* Exercise-01
+  * [A-Scanning container image on Harbor for vulnerabilities through Trivy](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01A-ScanContainerImages.md)
+  * [B-Setting up Harbor as a proxy to Azure Container Registry (ACR) and replicating images to ACR](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxyReplicateACR.md)
+* Exercise-02
+  * [A-Integrate Harbor with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborRancher.md)
+  * [B-Deploy sample application rancher/hello-word from Harbor onto RKE2 cluster ](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-DeploySampleApplication.md)
+* Exercise-03
+  * [A-Installing OPA on RKE2 cluster](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03A-InstallOPA.md)
+  * [B-Setting up OPA constraint for registry access](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-SetupOPAConstraint.md)
 
 ## References
 
 * [Rancher Documentation](https://rancher.com/docs/rancher/v2.6/en/)
-* [Istio Documentation](https://istio.io/latest/docs/)
-* [NeuVector Documentation](https://open-docs.neuvector.com/)
+* [Harbor Documentation](https://goharbor.io/docs/2.2.0/)
+* [OPA Documentation](https://www.openpolicyagent.org/docs/latest/)
 
