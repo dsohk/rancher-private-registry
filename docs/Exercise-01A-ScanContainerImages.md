@@ -76,4 +76,6 @@ e) After successful scan, a result will be shown with following details
 
 **End of Step 2**
 
-Navigate to: Exercise 1 [B-Setting up Harbor as a proxy to Azure Container Registry (ACR) and replicating images to ACR](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxyReplicateACR.md)
+**End of Exercise 1A**
+
+Continue to: [Exercise 1B-Setting up Harbor as a proxy to Azure Container Registry (ACR) and replicating images to ACR](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxyReplicateACR.md)
