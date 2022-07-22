@@ -36,7 +36,7 @@ You will then be led to Harbor login page. Enter the admin credentials to login.
 
 a) On Harbor Home page, click the `library` link on main screen under Project Name column. 
 
-![Screenshot 2022-07-22-at-4.30.08-PM](../images/Screenshot 2022-07-22-at-4.30.08-PM.png)
+![](../images/Screenshot-2022-07-22-at-4.30.08-PM.png)
 
 
 
