@@ -24,7 +24,7 @@ This lab is consiting of 3 exercises
   * [B-Setting up Harbor as a proxy to Azure Container Registry (ACR) and replicating images to ACR](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxyReplicateACR.md)
 * Exercise-02
   * [A-Integrate Harbor with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborRancher.md)
-  * [B-Deploy sample application rancher/hello-word from Harbor onto RKE2 cluster ](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-DeploySampleApplication.md)
+  * [B-Deploy sample application rancher/hello-word from Harbor onto RKE2 cluster ](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02B-DeploySampleApplication.md)
 * Exercise-03
   * [A-Installing OPA on RKE2 cluster](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03A-InstallOPA.md)
   * [B-Setting up OPA constraint for registry access](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-SetupOPAConstraint.md)
