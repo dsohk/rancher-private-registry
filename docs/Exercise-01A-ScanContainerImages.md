@@ -4,32 +4,6 @@ In this exercise, we are login to the harbor portal and using native scanning to
 
 
 
-## Before We Begin
-
-Before we start the lab, please make sure you have been provided with the following lab access credentials from the instructor. Each participant should have their own unique environment and credentials.
-
-| Item                              | Value                                                      |
-| --------------------------------- | ---------------------------------------------------------- |
-| Rancher Server URL                | https://rancher.xx.xx.xx.xx.sslip.io                       |
-| Rancher Server Username           | admin                                                      |
-| Rancher Server Bootstrap Password | (system assigned strong password)                          |
-| Harbor URL                        | https://harbor.yy.yy.yy.yy.sslip.io                        |
-| Harbor Username                   | admin                                                      |
-| Harbor Password                   | (system assigned strong password)                          |
-| Azure Registry Server Name        | attendeexx.azurecr.io (for example, attendee99.azurecr.io) |
-| Azure Registry User Name          | attendeexx (for example, attendee99)                       |
-| Azure Registry Password           | (system assigned strong password)                          |
-
-
-
-## Step 1 - Access Harbor Portal
-
-With a Google Chrome browser, navigate to the Harbor URL (https://harbor.yy.yy.yy.yy.sslip.io). If you are greeted by an invalid SSL certificate error message, you can click on the **Advanced** button and click the Proceed to https://harbor.yy.yy.yy.yy.sslip.io hyperlink to continue to https://harbor.yy.yy.yy.yy.sslip.io. Even now the link isn't shown, click on the empty space on browser and type the word `thisisunsafe` without any spaces on this page to bypass the warning message. 
-
-You will then be led to Harbor login page. Enter the admin credentials to login. When it's successful, you will be landing on the Harbor Home page. 
-
-**End of Step 1**
-
 ## Step 2 - Scan preloaded container image rancher/hello-world:latest
 
  
