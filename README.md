@@ -1,8 +1,6 @@
 # Rancher and Private Registry Hands-on Workshop
 This repository content provide the lab exercise guide for a hands-on workshop to help audience to understand and explore the open source technologies like Rancher and OPA in managing and securing containers on cloud based repositories like Azure Container Registry and/or private repositories such as Harbor.
 
-
-
 ## Open Source Technologies Used
 
 | Software | Version         | Remarks                                                      |
@@ -81,13 +79,16 @@ Now the login page will be displayed and proceed to authenticate yourself by ent
 
 This lab is consiting of 3 exercises 
 
-* Exercise-01
+* ##### Exercise-01
+  
   * [A-Scanning container image for vulnerabilities through Trivy on Harbor](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01A-ScanContainerImages.md)
   * [B-Setting up Harbor as a proxy to Azure Container Registry (ACR) and replicating images to ACR](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxyReplicateACR.md)
-* Exercise-02
+* ##### Exercise-02
+  
   * [A-Integrate Harbor and ACR with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborACRwithRancher.md)
   * [B-Deploy sample applications from Harbor Registry onto RKE2 cluster ](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02B-DeploySampleApplication.md)
-* Exercise-03
+* ##### Exercise-03
+  
   * [A-Installing and setting OPA constraint on RKE2 cluster](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03A-InstallOPA.md)
   * [B-Test registry access as per the OPA constraint setup](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-TestOPAConstraint.md)
 

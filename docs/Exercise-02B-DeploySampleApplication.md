@@ -30,7 +30,7 @@ This action will involve 4 steps from 2B.3 to 2B.6
 
 **Step 2B.4)** Click on link `library/hello-world` under Name column (This may depend on how many nested repository is been create).
 
-![Screenshot-2022-07-24 at-4.30.22-PM](../images/Screenshot-2022-07-24 at-4.30.22-PM.png)
+![Screenshot-2022-07-24-at-4.30.22-PM](../images/Screenshot-2022-07-24-at-4.30.22-PM.png)
 
 **Step 2B.5)** Click on container image link `sha256:xxxxxxxx` under **Artifacts** column. 
 
@@ -48,13 +48,15 @@ This action will involve 4 steps from 2B.3 to 2B.6
 
 This action will involve 5 steps from 2B.7 to 2B.11
 
-**Step 2B.7)** Navigate back to the Rancher portal. Fill in the following details and click on `Create` 
+**Step 2B.7)** Navigate back to the Rancher portal (Make sure that you are the Deployment screen). Fill in the following details and click on `Create` 
 
 `Namespace : default`
 
 `Name : user's choice e.g. rancher-hello-world-harbor`
 
 `Container Image : paste the pull command copied from harbor without statement "docker pull" e.g. harbor.yy.yy.yy.yy.sslip.io/library/hello-world:v0.1.2`
+
+`Pull Seceret : as specified in Step 2A.5 (From dropdown) e.g. harbor-registry `
 
 `Service Type : Node Port (From the dropdown)`
 
