@@ -15,6 +15,42 @@ This repository content provide the lab exercise guide for a hands-on workshop t
 
 
 
+## Before We Begin
+
+Before we start the lab, please make sure you have been provided with the following lab access credentials from the instructor. Each participant should have their own unique environment and credentials.
+
+| Item                              | Value                                                      |
+| --------------------------------- | ---------------------------------------------------------- |
+| Rancher Server URL                | https://rancher.xx.xx.xx.xx.sslip.io                       |
+| Rancher Server Username           | admin                                                      |
+| Rancher Server Bootstrap Password | system assigned strong password                            |
+| Harbor URL                        | https://harbor.yy.yy.yy.yy.sslip.io                        |
+| Harbor Username                   | admin                                                      |
+| Harbor Password                   | system assigned strong password                            |
+| Azure Registry Server Name        | attendeexx.azurecr.io (for example, attendee99.azurecr.io) |
+| Azure Registry User Name          | attendeexx (for example, attendee99)                       |
+| Azure Registry Password           | (system assigned strong password)                          |
+
+
+
+### Step 1 - Access Rancher and Harbor Portals
+
+a) With a Google Chrome browser, access Rancher Server URL (https://rancher.xx.xx.xx.xx.sslip.io). If you are greeted by an invalid SSL certificate error message, please follow the Note*.
+
+b) Enter the admin credentials to login i.e. `Username: admin`  and `Password: system assigned strong password`. 
+
+c) When it's successful, you will be landing on the Rancher Home page. 
+
+d) Do the same for Harbor URL (https://harbor.yy.yy.yy.yy.sslip.io). You will then be led to Harbor login page. If you are greeted by an invalid SSL certificate error message, please follow the Note*.
+
+e) Enter the admin credentials to login i.e. `Username: admin`  and `Password: system assigned strong password`. 
+
+*Note: If you are greeted by an invalid SSL certificate error message, you can click on the **Advanced** button and click the Proceed to https://rancher.xx.xx.xx.xx.sslip.io and/or https://harbor.yy.yy.yy.yy.sslip.io hyperlink to continue. Even now if link isn't shown, click on the empty space on browser and type the word `thisisunsafe` without any spaces to bypass the warning message. 
+
+**End of Step 1**
+
+
+
 ## Lab Exercises
 
 This lab is consiting of 3 exercises 
@@ -23,11 +59,11 @@ This lab is consiting of 3 exercises
   * [A-Scanning container image for vulnerabilities through Trivy on Harbor](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01A-ScanContainerImages.md)
   * [B-Setting up Harbor as a proxy to Azure Container Registry (ACR) and replicating images to ACR](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxyReplicateACR.md)
 * Exercise-02
-  * [A-Integrate Harbor with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborRancher.md)
-  * [B-Deploy sample application rancher/hello-word from Harbor onto RKE2 cluster ](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02B-DeploySampleApplication.md)
+  * [A-Integrate Harbor and ACR with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborACRwithRancher.md)
+  * [B-Deploy sample applications Private Registries onto RKE2 cluster ](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02B-DeploySampleApplication.md)
 * Exercise-03
-  * [A-Installing OPA on RKE2 cluster](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03A-InstallOPA.md)
-  * [B-Setting up OPA constraint for registry access](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-SetupOPAConstraint.md)
+  * [A-Installing and setting OPA constraint on RKE2 cluster](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03A-InstallOPA.md)
+  * [B-Test registry access as per the OPA constraint setup](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-TestOPAConstraint.md)
 
 ## References
 
