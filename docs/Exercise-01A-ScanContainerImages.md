@@ -8,7 +8,7 @@ In this exercise, we are login to the harbor portal and using native scanning to
 
 This exercise will involve 5 steps. 
 
-**Step 1A.1)** On Harbor Home page, click the `library` link on main screen under Project Name column. 
+**Step 1A.1)** Ensure that you are logged in to the Harbor (Refer to the Step 1 of section Before We Begin). On Harbor Home page, click the `library` link on main screen under Project Name column. 
 
 ![](../images/Screenshot-2022-07-22-at-4.30.08-PM.png)
 

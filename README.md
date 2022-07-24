@@ -45,7 +45,33 @@ d) Do the same for Harbor URL (https://harbor.yy.yy.yy.yy.sslip.io). You will th
 
 e) Enter the admin credentials to login i.e. `Username: admin`  and `Password: system assigned strong password`. 
 
-*Note: If you are greeted by an invalid SSL certificate error message, you can click on the **Advanced** button and click the Proceed to https://rancher.xx.xx.xx.xx.sslip.io and/or https://harbor.yy.yy.yy.yy.sslip.io hyperlink to continue. Even now if link isn't shown, click on the empty space on browser and type the word `thisisunsafe` without any spaces to bypass the warning message. 
+##### *Note: 
+
+If you are greeted by an invalid SSL certificate error message, you can click on the **Advanced** button
+
+Rancher:
+
+![Screenshot-2022-07-24-at-12.40.10-PM](images/Screenshot-2022-07-24-at-12.40.10-PM.png)
+
+Harbor:
+
+![Screenshot-2022-07-24-at-1.19.59-PM](images/Screenshot-2022-07-24-at-1.19.59-PM.png)
+
+Click the Proceed to https://rancher.xx.xx.xx.xx.sslip.io and/or https://harbor.yy.yy.yy.yy.sslip.io hyperlink to continue. 
+
+![Screenshot-2022-07-24-at-1.20.37-PM](images/Screenshot-2022-07-24-at-1.20.37-PM.png)
+
+Now the login page will be displayed and proceed to authenticate yourself by entering username and password.
+
+![Screenshot-2022-07-24-at-1.22.45-PM](images/Screenshot-2022-07-24-at-1.22.45-PM.png)
+
+If link isn't shown, click on the empty space on browser and type the word `thisisunsafe` without any spaces to bypass the warning message. 
+
+![Screenshot-2022-07-24-at-12.40.53-PM](images/Screenshot-2022-07-24-at-12.40.53-PM.png)
+
+Now the login page will be displayed and proceed to authenticate yourself by entering username and password.
+
+![Screenshot-2022-07-24-at-12.42.17-PM](images/Screenshot-2022-07-24-at-12.42.17-PM.png)
 
 **End of Step 1**
 
