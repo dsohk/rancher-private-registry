@@ -8,7 +8,7 @@ In this exercise, we'll continue from the previous step of Lab 1 A. We'll create
 
 This action will involve 5 steps from 1B.1 to 1B.5
 
-**Step 1B.1)** Click on `Registries` from the lefst side menu under the **Administration**
+**Step 1B.1)** Ensure that you are logged in to the Harbor (Refer to the Step 1 of section Before We Begin). Click on `Registries` from the lefst side menu under the **Administration**
 
 ![Screenshot-2022-07-22-at-7.34.27-PM-8502921](../images/Screenshot-2022-07-22-at-7.34.27-PM-8502921.png)
 
@@ -86,7 +86,7 @@ Verify that `InProgress` status is shown under **Execution** section.
 
 ![Screenshot-2022-07-23-at-1.20.07-PM](../images/Screenshot-2022-07-23-at-1.20.07-PM.png)
 
-**Step 1B.10)** After successpul replication, status will be updated to `Succeeded`. Now click on the link under **ID** column. 
+**Step 1B.10)** After successful replication, status will be updated to `Succeeded`. Now click on the link under **ID** column. 
 
 ![Screenshot-2022-07-23-at-1.21.47-PM](../images/Screenshot-2022-07-23-at-1.21.47-PM.png)
 

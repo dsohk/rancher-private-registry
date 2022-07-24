@@ -14,11 +14,11 @@ This exercise will involve 5 steps.
 
 
 
-**1A.2)** Click on link `library/rancher/hello-world` under Name column![Screenshot-2022-07-22-at-4.50.02-PM](../images/Screenshot-2022-07-22-at-4.50.02-PM.png)
+**Step 1A.2)** Click on link `library/rancher/hello-world` under Name column![Screenshot-2022-07-22-at-4.50.02-PM](../images/Screenshot-2022-07-22-at-4.50.02-PM.png)
 
 
 
-**1A.3)** Click on container image link `sha256:xxxxxxxx` under **Artifacts** column. Verify that `latest` is shown under the **Tags** column and **Vulnarabilities** column shows **`Not Scanned`** 
+**Step 1A.3)** Click on container image link `sha256:xxxxxxxx` under **Artifacts** column. Verify that `latest` is shown under the **Tags** column and **Vulnarabilities** column shows **`Not Scanned`** 
 
 ![](../images/Screenshot-2022-07-22-at-4.57.33-PM.png)
 
