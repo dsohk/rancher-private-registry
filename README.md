@@ -13,6 +13,15 @@ This repository content provide the lab exercise guide for a hands-on workshop t
 
 
 
+## Pre-requisites
+
+- Access to Github (https://github.com/) - Make sure that either through corporate or private computer attendee should have access. 
+- Access to Sslip (https://104.155.144.4.sslip.io/) - Make sure that either through corporate or private computer attendee should have access.
+- Optional - Access to SUSE Partner Portal (https://myaccount.suse.com/)
+- In case if attendees want to spin their own lab using personal/corporate azure account then please follow the below git.  
+
+
+
 ## Before We Begin
 
 Before we start the lab, please make sure you have been provided with the following lab access credentials from the instructor. Each participant should have their own unique environment and credentials.
@@ -82,7 +91,7 @@ This lab is consiting of 3 exercises
 * ##### Exercise-01
   
   * [A-Scanning container image for vulnerabilities through Trivy on Harbor](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01A-ScanContainerImages.md)
-  * [B-Setting up Harbor as a proxy to Azure Container Registry (ACR) and replicating images to ACR](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxyReplicateACR.md)
+  * [B-Setting up Harbor as a proxy to SUSE Registry and replicating images to Harbor](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxySUSERegistryReplicate.md)
 * ##### Exercise-02
   
   * [A-Integrate Harbor and ACR with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborACRwithRancher.md)
@@ -97,4 +106,5 @@ This lab is consiting of 3 exercises
 * [Rancher Documentation](https://rancher.com/docs/rancher/v2.6/en/)
 * [Harbor Documentation](https://goharbor.io/docs/2.2.0/)
 * [OPA Documentation](https://www.openpolicyagent.org/docs/latest/)
+* [SUSE Registry](https://registry.suse.com/)
 
