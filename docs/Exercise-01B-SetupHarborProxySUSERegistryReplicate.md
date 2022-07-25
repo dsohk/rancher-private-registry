@@ -12,9 +12,7 @@ This action will involve 5 steps from 1B.1 to 1B.5
 
 **Step 1B.2)** Click on `Registries` from the lefst side menu under the **Administration**. Now click on `+ NEW ENDPOINT` from Registris screen
 
-![Screenshot-2022-07-25 at-7.16.37-PM](../images/Screenshot-2022-07-25 at-7.16.37-PM.png)
-
-
+![Screenshot-2022-07-25-at-7.16.37-PM](../images/Screenshot-2022-07-25-at-7.16.37-PM.png)
 
 **Step 1B.3)** A pop-up screen will appear to fill in the following details and then click on `TEST CONNECTION`
 
@@ -30,7 +28,7 @@ This action will involve 5 steps from 1B.1 to 1B.5
 
 After filling the correct details, you'll receive an inline message `Connection tested successfully` on top of the pop-up window. Click `OK` .
 
-![Screenshot-2022-07-25 at-7.17.42-PM](../images/Screenshot-2022-07-25 at-7.17.42-PM.png)
+![Screenshot-2022-07-25-at-7.17.42-PM](../images/Screenshot-2022-07-25-at-7.17.42-PM.png)
 
 
 
