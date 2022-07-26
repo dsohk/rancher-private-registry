@@ -11,15 +11,15 @@ This repository content provide the lab exercise guide for a hands-on workshop t
 
    Github (https://github.com/) 
 
-   Sslip (*.sslip.io)
+   Sslip (https://sslip.io, *.sslip.io)
 
 3. Watch presentation/demo on Cloud native trusted container registry for Kubernetes [TUT-1212]. You may asked to register if your visting first time.  
 
    https://reg.rainfocus.com/flow/suse/susecon22/SessionCatalog/page/SessionCatalog/session/16490787591920019KcD
 
-4. If you want to spin this lab with your own personal/corporate Microsoft Azure Cloud account, please follow the link below:
+4. If you want to spin this lab with your own personal/corporate Microsoft Azure Cloud account, please follow below link:
 
-​       https://github.com/dsohk/workshops/tree/main/scenarios/azure/rancher-harbor-acr  
+   https://github.com/dsohk/workshops/tree/main/scenarios/azure/rancher-harbor-acr  
 
 5. Optional - Access to SUSE Partner Portal (https://myaccount.suse.com/)
 
@@ -34,10 +34,6 @@ This repository content provide the lab exercise guide for a hands-on workshop t
 | OPA      | 100.1.0+up3.7.1 | Open Policy Agent Gatekeeper: Policy and Governance for Kubernetes |
 | Harbor   | v2.2.2-56d7937f | Project Harbor is an an open source trusted cloud native registry project that stores, signs, and scans content. |
 | Trivy    | v0.16.0         | Aqua Trivy: Vulnerability and Misconfiguration Scanning      |
-
-
-
-
 
 
 
@@ -105,7 +101,7 @@ Now the login page will be displayed and proceed to authenticate yourself by ent
 
 ## Lab Exercises
 
-This lab is consiting of 3 exercises 
+This lab consists of 3 exercises and 1 bonus exersise which can be completed offline within the stuipulated timeline. 
 
 * ##### Exercise-01
   
@@ -126,9 +122,13 @@ This lab is consiting of 3 exercises
   * [A-Installing and setting OPA constraint on RKE2 cluster](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03A-InstallOPA.md)
   * [B-Validate OPA Gatekeeper](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-TestOPAConstraintForHarborDocker.md)
 
+
+
 ##### Bonus Lab Exercise (Independent - Self learning)
 
 * [Bonus Lab Exercise](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/BonusExercise-01.md)
+
+
 
 ## References
 
