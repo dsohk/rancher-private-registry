@@ -107,7 +107,7 @@ Now click on `Workload (2)` option from the left hand static menu and select `De
 
 **End of Exercise 3A**
 
-Continue to: [Exercise 3B-Test registry access as per the OPA constraint setup](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-TestOPAConstraint.md)
+Continue to: [Exercise 3B-Validate OPA Gatekeeper](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-TestOPAConstraintForHarborDocker.md)
 
 
 

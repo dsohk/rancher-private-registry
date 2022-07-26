@@ -63,4 +63,3 @@ This exercise is independent.
 
 **End of Bonus Exercise**
 
-Continue to: [Exercise 2B-Deploy sample applications from Harbor Registry onto RKE2 cluster ](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02B-DeploySampleApplication.md)
