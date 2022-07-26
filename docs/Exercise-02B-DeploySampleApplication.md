@@ -4,7 +4,7 @@ This exercise will continue from the previous Exercise 2B. We'll deploy a sample
 
 Private registry can be directly configured during cluster setup and user need not to know or enter the registry url along with the image name. For visibility purpose, exercise is designed in this way to manually enter complete path.  
 
-
+###### Usecase: CLI has serveral benefits including flexibility. However, GUI provide more controlled options and guided navigation. It makes learning easier and interactive. Rancher provides user interface for Kubernetes management without additional learning curve. 
 
 ## Action 1: Prepare for deployment on Rancher 
 
