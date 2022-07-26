@@ -2,6 +2,10 @@
 
 This exercise is independent. We'll experience ease of installing Open Policy Agent (OPA) from Rancher cluster tools and quickly setup the constaint to allow only specific registries for deployment. 
 
+###### Usecase: At a time development and operations may need seperate/multiple container registries and it imposes security challenges. The Open Policy Agent Gatekeeper project can be leveraged to help enforce policies and strengthen governance in your Kubernetes environment. Rancher provides OPA Gatekeeper straight from the Cluster Tools to install and setup policies within few clicks. 
+
+
+
 ## Action 1: Install Open Policy Agent (OPA) 
 
 This action will involve 2 steps from 2B.1 to 2B.2
