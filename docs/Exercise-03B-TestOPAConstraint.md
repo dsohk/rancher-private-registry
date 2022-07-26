@@ -4,6 +4,10 @@ This exercise will continue from the previous Exercise 3A. We'll deploy a sample
 
 
 
+###### Usecase: It's now time to test and ensure that policies are working as we are expecting! 
+
+
+
 ## Action 1: Validate deployment - pulling container image from Harbor 
 
 This action will involve 3 steps from 3B.1 to 3B.3
