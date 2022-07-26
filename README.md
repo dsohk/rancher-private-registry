@@ -13,7 +13,7 @@ This repository content provide the lab exercise guide for a hands-on workshop t
 
    Sslip (https://sslip.io, *.sslip.io)
 
-3. Watch presentation/demo on Cloud native trusted container registry for Kubernetes [TUT-1212]. You may asked to register if your visting first time.  
+3. Watch presentation/demo on Cloud native trusted container registry for Kubernetes [TUT-1212]. You may asked to register if you're visting first time.  
 
    https://reg.rainfocus.com/flow/suse/susecon22/SessionCatalog/page/SessionCatalog/session/16490787591920019KcD
 
