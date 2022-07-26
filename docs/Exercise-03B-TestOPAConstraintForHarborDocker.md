@@ -1,8 +1,8 @@
 # Lab 3 B - Validate OPA Gatekeeper
 
-This exercise will continue from the previous Exercise 3A. We'll deploy a sample application rancher's hello-world from Harbor registry and ACR respectively to validate OPA Constraint.  
+This exercise will continue from the previous Exercise 3A. We'll deploy a sample applications from docker hub and rancher's hello-world from Harbor registry and validate OPA Constraint.  
 
-
+###### Usecase: It's now time to test and ensure that policies are working as we are expecting! 
 
 ## Action 1: Validate deployment - pulling container image from Docker 
 
