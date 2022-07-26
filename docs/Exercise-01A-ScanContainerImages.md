@@ -2,11 +2,11 @@
 
 In this exercise, we are login to the harbor portal and using native scanning tool Trivy for vulnarabilities. It has 2 main steps loging the harbor portal and scanning pre-loaded container image for vulnarabilities. 
 
+###### Usecase: With the growing awareness about supply chain security, it is important to gain visibility into the software components used in the application. Scanning container images gives insight about the known vulnarabilities and and related fixes.   
 
+## Action 1: Scan pre-loaded container image rancher's hello-world:latest
 
-## Scan preloaded container image rancher/hello-world:latest
-
-This exercise will involve 5 steps. 
+This action will involve 5 steps from 1A.1 to 1A.5 
 
 **Step 1A.1)** Ensure that you are logged in to the Harbor (Refer to the Step 1 of section Before We Begin). On Harbor Home page, click the `library` link on main screen under **Project Name** column. 
 
@@ -14,7 +14,7 @@ This exercise will involve 5 steps.
 
 
 
-**Step 1A.2)** Click on link `library/rancher/hello-world` under **Name** column (This may depend on how many nested repository is been create).![Screenshot-2022-07-22-at-4.50.02-PM](../images/Screenshot-2022-07-22-at-4.50.02-PM.png)
+**Step 1A.2)** Click on link `library/rancher/hello-world` under **Name** column (This may depend on how many nested repository is been create it may be shown to you as  `library/hello-world` due to the lab setup).![Screenshot-2022-07-22-at-4.50.02-PM](../images/Screenshot-2022-07-22-at-4.50.02-PM.png)
 
 
 
@@ -42,11 +42,13 @@ And it will start Scanning.
 
 
 
-**1A.5)** After successful scan, a result will be shown with following details 
+**1A.4)** After successful scan, a result will be shown with following details 
 
 `Vulnerability` i.e. CVE Number, `Severity` i.e. Critical, High, Medium etc., `CVSS3` i.e. Common Vulnarability Score as per CVSS Version 3.0, `package`, `Current version`, `Fixed in version` and `Listed in CVE Allowlist` . Clicking on arrow (>) sign will provide detailed description. 
 
 ![](../images/Screenshot-2022-07-22-at-6.27.18-PM.png)
+
+**End of Action 1**
 
 **End of Exercise 1A**
 
