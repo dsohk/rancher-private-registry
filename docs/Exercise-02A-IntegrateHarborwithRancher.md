@@ -50,7 +50,7 @@ This action will involve 6 steps from 2A.1 to 2A.6
 
 
 
-**Step 2A.6)** Verify that harbor registry seceret  is successfully registered. Now click on `Create` to proceed to register ACR. 
+**Step 2A.6)** Verify that harbor registry seceret  is successfully registered. 
 
 ![Screenshot-2022-07-24-at-2.11.17-PM](../images/Screenshot-2022-07-24-at-2.11.17-PM.png)
 
@@ -58,45 +58,9 @@ This action will involve 6 steps from 2A.1 to 2A.6
 
 
 
-## Action 2: Integrate ACR
-
-This action will involve 3 steps from 2A.7 to 2A.9
-
-**Step 2A.7)** Click on `Registry` option.
-
-![Screenshot-2022-07-24-at-2.06.54-PM](../images/Screenshot-2022-07-24-at-2.06.54-PM.png)
-
-
-
-**Step 2A.8)** Fill in following details and click on `Create`. 
-
-`Namespace : default`
-
-`Name : User's choice e.g. azure-cr`
-
-`Data : Custom (Default choice)`
-
-`Registry Domain Name : Azure Registry Servername i.e. attendeexx.azurecr.io`
-
-`Username : Azure Registry Username e.g. attendeexx`
-
-`Password : system generated strong password`
-
-![Screenshot-2022-07-24-at-2.14.26-PM](../images/Screenshot-2022-07-24-at-2.14.26-PM.png)
-
-
-
-**Step 2A.9)** Verify that harbor registry seceret  is successfully registered.
-
-![Screenshot-2022-07-24-at-2.15.48-PM](../images/Screenshot-2022-07-24-at-2.15.48-PM.png)
-
-
-
-**End of Action 2**
-
 **Tip:**
 
-You may integrate private registry as default registry instead of public registry e.g. docker hub. This integration is out of scope from this workshop.  ![Screenshot-2022-07-26-at-1.27.40-PM](../images/Screenshot-2022-07-26-at-1.27.40-PM.png)
+You may integrate private registry as default registry instead of public registry e.g. docker hub. This integration is out of scope of this workshop.  ![Screenshot-2022-07-26-at-1.27.40-PM](../images/Screenshot-2022-07-26-at-1.27.40-PM.png)
 
 **End of Exercise 2 A**
 
