@@ -2,6 +2,8 @@
 
 This exercise will continue from the previous Exercise 2B. We'll deploy a sample application rancher's hello-world from Harbor registry. It will require back and forth navation between Rancher and Harbor Portal. 
 
+Private registry can be directly configured during cluster setup and user need not to know or enter the registry url along with the image name. For visibility purpose, exercise is designed in this way to manually enter complete path.  
+
 
 
 ## Action 1: Prepare for deployment on Rancher 

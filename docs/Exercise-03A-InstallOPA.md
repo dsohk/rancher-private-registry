@@ -84,18 +84,16 @@ This action will involve 6 steps from 3A.7 to 3A.11
 
 
 
-**Step 3A.10)** Specify following yaml values and click `Create`. Make sure that ACR url is provided correctly as per your allocation e.g. ``. In this scenario, ACR is allowed while Harbor is by default dined. 
+**Step 3A.10)** Specify following yaml values and click `Create`. Make sure that Harbor url is provided correctly as per your allocation e.g. `harbor.20.207.199.86.sslip.io`. In this scenario, Harbor is allowed while Docker Hub (Public Registry) doesn't exisit in allowed list and hence the deployment from docker hub will be blocked.  
 
 ```yaml
 repos:
- - apjseindiasyadav.azurecr.io (change this value accroding to your allocated Azure Registry Server Name e.g. attendeexx.azurecr.io)
+ - harbor.yy.yy.yy.yy.sslip.io
  - docker.io
  - registry.gitlab.com
 ```
 
-![Screenshot-2022-07-24-at-6.37.27-PM](../images/Screenshot-2022-07-24-at-6.37.27-PM.png)
-
-
+![Screenshot-2022-07-25-at-9.14.25-PM](../images/Screenshot-2022-07-25-at-9.14.25-PM.png)
 
 **Step 3A.11)** Verify that constraint is successfully created. Now proceed to validate if the defined constraint is working as expected i.e. deployment pulling container image from ACR will be successful while Harbor will be failed. 
 

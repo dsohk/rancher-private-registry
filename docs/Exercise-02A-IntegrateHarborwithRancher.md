@@ -1,4 +1,4 @@
-# Lab 2 A - Integrate Harbor and ACR with Rancher
+# Lab 2 A - Integrate Harbor 
 
 This exercise is independent from Exercise 1. We'll create a new secerets for Registries in Rancher. 
 

@@ -1,6 +1,30 @@
 # Rancher and Private Registry Hands-on Workshop
 This repository content provide the lab exercise guide for a hands-on workshop to help audience to understand and explore the open source technologies like Rancher and OPA in managing and securing containers on cloud based repositories like Azure Container Registry and/or private repositories such as Harbor.
 
+
+
+## Pre-requisites
+
+1. This Lab will require only chrome browser with fast and reliable internet connection. 
+
+2. Make sure you have access to following urls behind your corporate firewall/personal computers. 
+
+   Github (https://github.com/) 
+
+   Sslip (*.sslip.io)
+
+3. Watch presentation/demo on Cloud native trusted container registry for Kubernetes [TUT-1212]. You may asked to register if your visting first time.  
+
+   https://reg.rainfocus.com/flow/suse/susecon22/SessionCatalog/page/SessionCatalog/session/16490787591920019KcD
+
+4. If you want to spin this lab with your own personal/corporate Microsoft Azure Cloud account, please follow the link below:
+
+​       https://github.com/dsohk/workshops/tree/main/scenarios/azure/rancher-harbor-acr  
+
+5. Optional - Access to SUSE Partner Portal (https://myaccount.suse.com/)
+
+
+
 ## Open Source Technologies Used
 
 | Software | Version         | Remarks                                                      |
@@ -13,12 +37,7 @@ This repository content provide the lab exercise guide for a hands-on workshop t
 
 
 
-## Pre-requisites
 
-- Access to Github (https://github.com/) - Make sure that either through corporate or private computer attendee should have access. 
-- Access to Sslip (https://104.155.144.4.sslip.io/) - Make sure that either through corporate or private computer attendee should have access.
-- Optional - Access to SUSE Partner Portal (https://myaccount.suse.com/)
-- In case if attendees want to spin their own lab using personal/corporate azure account then please follow the below git.  
 
 
 
@@ -92,14 +111,24 @@ This lab is consiting of 3 exercises
   
   * [A-Scanning container image for vulnerabilities through Trivy on Harbor](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01A-ScanContainerImages.md)
   * [B-Setting up Harbor as a proxy to SUSE Registry and replicating images to Harbor](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-01B-SetupHarborProxySUSERegistryReplicate.md)
+  
+  
+  
 * ##### Exercise-02
   
-  * [A-Integrate Harbor and ACR with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborACRwithRancher.md)
+  * [A-Integrate Harbor with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborwithRancher.md)
   * [B-Deploy sample applications from Harbor Registry onto RKE2 cluster ](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02B-DeploySampleApplication.md)
+  
+  
+  
 * ##### Exercise-03
   
   * [A-Installing and setting OPA constraint on RKE2 cluster](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03A-InstallOPA.md)
-  * [B-Test registry access as per the OPA constraint setup](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-TestOPAConstraint.md)
+  * [B-Validate OPA Gatekeeper](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-03B-TestOPAConstraintForHarborDocker.md)
+
+##### Bonus Lab Exercise (Independent - Self learning)
+
+* [Bonus Lab Exercise](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/BonusExercise-01.md)
 
 ## References
 

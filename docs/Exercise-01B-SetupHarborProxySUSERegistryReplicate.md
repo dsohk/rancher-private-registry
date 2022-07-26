@@ -100,6 +100,8 @@ This action will involve 5 steps from 1B.6 to 1B.10
 
 **End of Action 2**
 
+
+
 ## Action 3: Scan replicated base container image (bci) bci/bci-base:latest 
 
 This action will involve 3 steps from 1B.11 to 1B.13. 
@@ -140,4 +142,4 @@ Now verify that scanning is completed and respective vulnerabilities are shown. 
 
 **End of Exercise 1B**
 
-Continue to: [Exercise 2A-Integrate Harbor and ACR with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborACRwithRancher.md)
+Continue to: [Exercise 2A-Integrate Harbor with Rancher](https://github.com/dsohk/rancher-private-registry-workshop/blob/main/docs/Exercise-02A-IntegrateHarborwithRancher.md)
